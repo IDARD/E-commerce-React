@@ -1,0 +1,40 @@
+.containerProduit {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+}
+
+.produit {
+  width: 400px;
+  height: 560px;
+  box-shadow: 0 0 15px #ddd;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.imgProduit {
+  width: 400px;
+  height: 300px;
+}
+
+.buttonAchat {
+  background-color: purple;
+  border: 1px solid purple;
+  border-radius: 5px;
+  color: pink;
+  font-weight: bold;
+  width: 45%;
+  padding: 8px;
+  margin-right: 5px;
+}
+
+.buttonDetails {
+  background-color: pink;
+  border: 1px solid pink;
+  border-radius: 5px;
+  color: purple;
+  font-weight: bold;
+  width: 45%;
+  padding: 8px;
+  margin-left: 5px;
+}

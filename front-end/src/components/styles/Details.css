@@ -1,0 +1,67 @@
+.parent {
+  border: 1px solid gray;
+  margin: 5%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.containerDeProduit {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.deProduit {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+#nom {
+  color: purple;
+  font-size: 30px;
+}
+
+.imgDeProduit {
+  width: 350px;
+  height: 350px;
+}
+
+.buttonReset {
+  background-color: purple;
+  border: 1px solid purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  padding: 6px;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#id {
+  font-weight: bold;
+}
+
+/* Prof 
+
+image {
+  width: 350px;
+  height: 400px;
+}
+
+parent {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  border: 1px solid #ccc;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 140%;
+} */

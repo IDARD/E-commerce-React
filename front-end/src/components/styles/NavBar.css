@@ -1,0 +1,65 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid purple;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+ul {
+  color: black;
+  width: 350px;
+  list-style: none;
+  margin-right: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {
+  color: black;
+}
+
+.boutons {
+  width: 120px;
+  display: flex;
+  background-color: purple;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+#titre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 10px;
+  margin-left: 25px;
+  font-weight: bold;
+  font-size: 30px;
+  color: purple;
+}
+
+#panier {
+  width: 20px;
+  margin-left: 20px;
+}
+
+#annonces {
+  width: 20px;
+  margin-left: 20px;
+}
+
+#deconex {
+  width: 5px;
+  margin-left: 5px;
+}
